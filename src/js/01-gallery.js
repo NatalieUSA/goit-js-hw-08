@@ -24,6 +24,7 @@ const items = [];
 galleryItems.forEach(element => {
   const galleryItem = document.createElement('li');
   galleryItem.className = 'gallery__item';
+  galleryItem.style.listStyle = 'none';
 
   const galleryLink = document.createElement('a');
   galleryLink.className = 'gallery__link';
